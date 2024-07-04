@@ -1,0 +1,129 @@
+
+ /* styles.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #6a0dad; /* Purple background */
+    color: #ffffff; /* White text color */
+    margin-top: 56px; /* Adjust for fixed navbar */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #4b0082; /* Dark purple */
+}
+
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Main content styles */
+.container-fluid.bg-danger {
+    background-color: #8b00ff !important; /* Bright purple */
+}
+
+.container-fluid.bg-danger .display-4, 
+.container-fluid.bg-danger .lead {
+    color: #ffffff;
+}
+
+/* Section styles */
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    margin-bottom: 40px;
+}
+
+/* About Me Section */
+#about img {
+    border: 5px solid #ffffff; /* White border */
+}
+
+/* Work Experience Section */
+#work-experience {
+    background-color: #7b1fa2; /* Medium purple */
+    color: #ffffff;
+}
+
+#work-experience h3 {
+    color: #ffffff;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #6a1b9a; /* Medium-dark purple */
+    color: #ffffff;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills li {
+    background-color: #8e24aa; /* Bright purple */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #4a148c; /* Dark purple */
+    color: #ffffff;
+}
+
+#projects .card {
+    background-color: #6a0dad;
+    color: #ffffff;
+}
+
+#projects .card-title {
+    color: #ffffff;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #7b1fa2; /* Medium purple */
+    color: #ffffff;
+}
+
+#contact .form-control {
+    background-color: #6a0dad;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+#contact .form-control::placeholder {
+    color: #dddddd;
+}
+
+#contact .btn-primary {
+    background-color: #8e24aa;
+    border: none;
+}
+
+#contact .btn-primary:hover {
+    background-color: #6a1b9a;
+}
+
+/* Footer styles */
+footer {
+    background-color: #4b0082; /* Dark purple */
+    color: #ffffff;
+}
+
+footer p {
+    margin: 0;
+}
