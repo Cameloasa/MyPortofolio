@@ -1,0 +1,16 @@
+
+ .body {
+            padding-top: 56px;
+        }
+    .navbar-nav .nav-link {
+            color: white;
+        }
+        .navbar-nav .nav-link:hover {
+            color: lightgray;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
