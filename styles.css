@@ -100,10 +100,31 @@ section h2 {
 #projects .card {
     background-color: #6a0dad;
     color: #ffffff;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
 }
 
 #projects .card-title {
     color: #ffffff;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card-text {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* Number of lines before truncating */
+    -webkit-box-orient: vertical;
+}
+
+.card-footer {
+    margin-top: auto;
 }
 
 /* Contact Section */
